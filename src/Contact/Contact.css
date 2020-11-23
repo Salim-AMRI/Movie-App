@@ -1,0 +1,32 @@
+.Contact-page {
+  background: url("https://images.alphacoders.com/846/thumb-1920-846414.jpg")
+    no-repeat;
+  background-size: 100% 100%;
+
+  margin-left: 5%;
+  margin-right: 5%;
+  margin-bottom: 5%;
+  border-radius: 3%;
+  border-bottom: #ce003c solid 3px;
+  border-radius: 25px 25px 25px 25px;
+  box-shadow: 6px 6px 12px #221313;
+}
+.Contact {
+  display: flex;
+  justify-content: space-between;
+  padding: 5% 10%;
+  margin-top: 5%;
+}
+
+@media only screen and (max-width: 1000px) {
+  .Contact-page {
+    background: none;
+    background-size: cover;
+  }
+
+  .Contact {
+    flex-direction: column;
+    align-items: center;
+    padding: 20px;
+  }
+}
